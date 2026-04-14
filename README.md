@@ -1,6 +1,6 @@
-# Innovation in Bank Simulation.
+# Innovation in Bank Simulation 🏦.
 
-#### This is the Group Project for FOP
+#### This is the Group Project for FOP 👨‍💻
 #### Contributed by - 
 #### Sagnik Das
 #### Parth Gawade
@@ -27,7 +27,7 @@ The goal was to go beyond basic record-keeping and show that a low-level languag
 
 ---
 
-## Files
+## Files 📁
 
 | File | Description |
 |------|-------------|
@@ -48,7 +48,7 @@ The goal was to go beyond basic record-keeping and show that a low-level languag
 
 ---
 
-## Neural Network — How It Works
+## Neural Network — How It Works 
 
 The ML model is a custom feedforward network implemented entirely in C using only the standard library.
 
@@ -57,7 +57,7 @@ The ML model is a custom feedforward network implemented entirely in C using onl
 - **Hidden Layer:** 16 neurons with ReLU activation
 - **Output Layer:** 2 neurons with Softmax (Churned / Not Churned)
 
-**Training:**
+**Training: **
 - Optimizer: Stochastic Gradient Descent (SGD)
 - Learning Rate: 0.01
 - Batch Size: 32
@@ -70,7 +70,7 @@ The CSV is parsed using `strtok()`, non-predictive columns (row number, customer
 
 ## How to Run
 
-### Banking Simulation
+### Banking Simulation 🏦
 ```bash
 gcc bank_simulation.c -o bank
 ./bank
